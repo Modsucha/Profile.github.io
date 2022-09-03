@@ -323,27 +323,27 @@ nav
     background-color: #fff;
     border-radius: 25px;
 }
-.project .project-text 
+.project .project-box .project-text 
 {
     width: 100%;
     color: #000;
     padding: 10px 0px;
     text-align: center;
 }
-.project .project-text h3
+.project .project-box .project-text h3
 {
     text-transform: uppercase;
     text-align: center;
     position: relative;
 }
-.project .project-text ul li
+.project .project-box .project-text ul li
 {
     margin: 0;
     padding: 0;
     max-width: 400px;
     list-style: none;
 }
-.project .project-item
+.project .project-box .project-item
 {
     width: 100%;
     height: auto;
@@ -351,7 +351,7 @@ nav
     justify-content: center;
     align-items: center;
 }
-.project .project-item video
+.project .project-box .project-item video
 {
     width: 85%;
     height: auto;
