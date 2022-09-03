@@ -258,7 +258,7 @@ nav
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #16213E;
+    background-color: #2C3333;
     color: #16213E;
 }
 .skils .skill-text
@@ -280,7 +280,7 @@ nav
 {
     width: 50%;
     height: 50vh;
-    background-color: #E7F6F2;
+    background-color: #fff;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -313,24 +313,35 @@ nav
     align-items: center;
     background-color: #2C3333;
 }
-.project .project-text 
+.project .project-box
 {
+    width: 65%;
+    height: 60vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.project .project-text 
+{
     width: 100%;
-    color: #fff;
+    color: #000;
+    padding: 10px 0px;
+    text-align: center;
 }
 .project .project-text h3
 {
     text-transform: uppercase;
-    text-align: start;
+    text-align: center;
     position: relative;
 }
-.project .project-item p
+.project .project-text ul li
 {
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    list-style: none;
 }
 .project .project-item
 {
@@ -342,7 +353,7 @@ nav
 }
 .project .project-item video
 {
-    width: 80%;
+    width: 85%;
     height: auto;
 }
 .contact
@@ -501,6 +512,13 @@ nav
     width: 80%;
     height: auto;
 }
+.project .project-text ul li
+{
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+    list-style: none;
+}
 .about
 {
     width: 100%;
@@ -548,9 +566,16 @@ nav
     object-fit: cover;
     border-radius: 20px;
 }
-.project
+.project .project-box
 {
+    width: 90%;
+    height: 70vh;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
 }
 .project .project-text p
 {
